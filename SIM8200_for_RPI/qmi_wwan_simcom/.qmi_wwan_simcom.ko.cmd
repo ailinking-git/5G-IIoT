@@ -1,0 +1,1 @@
+cmd_/home/pi/SIM8200-M2_5G_HAT_code/qmi_wwan_simcom/qmi_wwan_simcom.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/SIM8200-M2_5G_HAT_code/qmi_wwan_simcom/qmi_wwan_simcom.ko /home/pi/SIM8200-M2_5G_HAT_code/qmi_wwan_simcom/qmi_wwan_simcom.o /home/pi/SIM8200-M2_5G_HAT_code/qmi_wwan_simcom/qmi_wwan_simcom.mod.o;  true
